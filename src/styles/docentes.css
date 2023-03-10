@@ -1,0 +1,98 @@
+.docente {
+  width: 100%;
+  margin: auto;
+}
+.barra-docente {
+  background-color: #283334;
+  width: 100%;
+  padding: 10px 0px;
+}
+.barra-docente h2 {
+  margin: 0px;
+  font-size: 3em;
+  color: #029ad4;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px auto;
+}
+.container-docentes {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 20px auto;
+  gap: 10px;
+  background-color: #283334;
+  padding: 10px;
+}
+.item-docente {
+  width: 100%;
+  position: relative;
+}
+.item-docente img {
+  max-width: 100%;
+}
+
+.barra-abajo-ponente {
+  background-color: #283334;
+  width: 100%;
+  padding: 10px 0px;
+}
+.barra-abajo-ponente h2 {
+  margin: 0px;
+  font-size: 2.2em;
+  color: #029ad4;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px;
+}
+@media (max-width: 768px) {
+  .docente {
+    width: 100%;
+    margin: auto;
+  }
+  .barra-docente {
+    background-color: #283334;
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .barra-docente h2 {
+    margin: 0px;
+    font-size: 2em;
+    color: #029ad4;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px auto;
+  }
+  .container-docentes {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin: 20px auto;
+    gap: 10px;
+    background-color: #283334;
+    padding: 10px;
+  }
+  .item-docente {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .item-docente img {
+    max-width: 100%;
+  }
+
+  .barra-abajo-ponente {
+    background-color: #283334;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .barra-abajo-ponente h2 {
+    margin: 0px;
+    font-size: 1.2em;
+    color: #029ad4;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px;
+  }
+}
