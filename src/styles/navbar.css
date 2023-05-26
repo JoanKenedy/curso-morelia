@@ -1,13 +1,20 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px 40px;
   flex-wrap: wrap;
 }
-header img {
+.logo {
   max-width: 35%;
 }
+.redes-header a img{
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin: 0px 5px;
+}
+
 .barraUno {
   width: 100%;
   background-color: #0394cb;
@@ -41,13 +48,17 @@ header img {
 @media (max-width: 768px) {
   header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
     flex-wrap: wrap;
   }
-  header img {
-    max-width: 50%;
+  .logo {
+    max-width: 60%;
+  }
+  .redes-header a img{
+    width: 30px;
+    height: 30px;
   }
   .barraUno {
     width: 100%;
