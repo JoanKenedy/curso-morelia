@@ -1,15 +1,15 @@
 import React from "react";
-import Foto1 from "../img/paseo1.png";
-import Foto2 from "../img/xochi2.png";
-import Foto3 from "../img/paseo2.png";
-import Foto4 from "../img/xochi3.jpg";
-import Foto5 from "../img/paseo5.png";
-import Foto6 from "../img/xochi5.jpg";
+import Foto1 from "../img/foto-5.jpg";
+import Foto2 from "../img/foto-1.jpg";
+import Foto3 from "../img/foto-3.jpg";
+import Foto4 from "../img/foto-7.jpg";
+import Foto5 from "../img/foto-2.webp";
+import Foto6 from "../img/foto-6.jpg";
 import "../styles/galery.css";
 const Galery = () => {
   return (
     <div className="galery">
-      <h2>Lugares que conoceras en la Cdmx</h2>
+      <h2>Lugares que conoceras en Brasil</h2>
       <div className="container-galery">
         <div className="item-galery">
           <img src={Foto1} alt="" />

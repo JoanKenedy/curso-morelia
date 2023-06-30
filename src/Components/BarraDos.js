@@ -7,7 +7,7 @@ const BarraDos = () => {
     <>
       <div className="container-todo">
         <div className="barra2">
-          <p>En la Ciudad de México y Reynosa Tamaulipas</p>
+          <p>En Brasil</p>
         </div>
         <div className="descarga">
           <div className="arrow1"></div>

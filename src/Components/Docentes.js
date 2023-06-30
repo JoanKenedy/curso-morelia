@@ -1,7 +1,7 @@
 import React from "react";
-import Docente1 from "../img/ponente-1.jpeg";
-import Docente2 from "../img/ponente-2.jpeg";
-import Docente3 from "../img/ponente-3.jpeg";
+import Docente1 from "../img/doctor-2.png";
+import Docente2 from "../img/doctor-1.png";
+import Docente3 from "../img/doctor.png";
 import "../styles/docentes.css";
 
 const Docentes = () => {
@@ -14,12 +14,15 @@ const Docentes = () => {
       <div className="container-docentes">
         <div className="item-docente">
           <img src={Docente1} alt="" />
+          <h2>Dr. Sergio Enrique Gembe</h2>
         </div>
         <div className="item-docente">
           <img src={Docente2} alt="" />
+          <h2>Dr. Christofer Campos Marcial</h2>
         </div>
         <div className="item-docente">
           <img src={Docente3} alt="" />
+          <h2>Dr. Christian Garrido Barbosa</h2>
         </div>
       </div>
       <div className="barra-abajo-ponente">

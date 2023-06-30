@@ -4,6 +4,7 @@
 }
 .barra-docente {
   background-color: #283334;
+
   width: 100%;
   padding: 10px 0px;
 }
@@ -22,15 +23,32 @@
   text-align: center;
   margin: 20px auto;
   gap: 10px;
-  background-color: #283334;
+  background-color: #029ad4;
+
   padding: 10px;
 }
 .item-docente {
   width: 100%;
   position: relative;
+  background-color: #283334;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .item-docente img {
   max-width: 100%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.item-docente h2 {
+  color: #fff;
+  font-weight: 200;
 }
 
 .barra-abajo-ponente {
@@ -71,7 +89,7 @@
     text-align: center;
     margin: 20px auto;
     gap: 10px;
-    background-color: #283334;
+
     padding: 10px;
   }
   .item-docente {
